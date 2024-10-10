@@ -1,3 +1,30 @@
 .container {
   max-width: 960px;
 }
+/* Estilos personalizados para el formulario */
+.is-invalid {
+  border-color: red !important;
+}
+
+.is-valid {
+  border-color: green !important;
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 0.875em;
+}
+
+.check-icon {
+  display: none;
+  font-size: 1.2em;
+  color: green;
+}
+
+.valid .check-icon {
+  display: inline;
+}
+
+#terminosTexto {
+  margin-left: 8px;
+}
