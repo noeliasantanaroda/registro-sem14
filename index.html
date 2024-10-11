@@ -14,56 +14,56 @@
 
   <div class="container">
     <main>
-      <form id="registroForm" class="row mt-4">
+      <form action="#" method="get" class="row mt-4">
         <div class="col">
           <h1 class="mb-3">Registro</h1>
           <hr class="my-4">
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="nombre" class="form-label">Nombre <span class="check-icon" id="nombreCheck"></span></label>
-              <input type="text" class="form-control" id="nombre" >
-              <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
             </div>
 
             <div class="col-sm-6">
-              <label for="apellido" class="form-label">Apellido <span class="check-icon" id="apellidoCheck"></span></label>
-              <input type="text" class="form-control" id="apellido" >
-              <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
             </div>
 
             <div class="col-12">
-              <label for="email" class="form-label">Email <span class="check-icon" id="emailCheck"></span></label>
-              <input type="email" class="form-control" id="email" >
-              <div class="invalid-feedback">Introduce un email válido.</div>
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
             </div>
 
             <div class="col-sm-6">
-              <label for="password1" class="form-label">Contraseña <span class="check-icon" id="password1Check"></span></label>
-              <input type="password" class="form-control" id="password1" minlength="6" >
-              <div class="invalid-feedback">La contraseña debe tener al menos 6 caracteres.</div>
+              <label for="password1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password1">
             </div>
 
             <div class="col-sm-6">
-              <label for="password2" class="form-label">Repetir contraseña <span class="check-icon" id="password2Check"></span></label>
+              <label for="password2" class="form-label">Repetir contraseña</label>
               <input type="password" class="form-control" id="password2">
-              <div class="invalid-feedback">Las contraseñas no coinciden.</div>
             </div>
 
             <div class="col-sm-12">
-              <button type="button" class="btn btn-link ps-0" id="terminosBoton" data-bs-toggle="modal" data-bs-target="#modalTerminos">Términos del servicio</button>
-              <span id="terminosTexto" class="text-danger"></span>
-              <span class="check-icon" id="terminosCheck"></span>
+              <button type="button" class="btn btn-link ps-0" data-bs-toggle="modal"
+                data-bs-target="#modalTerminos">Términos del servicio</button>
             </div>
 
+
             <button class="btn btn-primary" type="submit">Registrarme</button>
+
+
           </div>
         </div>
       </form>
+
     </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-      <p class="mb-1">Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a></p>
-      <p class="mb-1">Es un sitio generado con fines estrictamente educativos. No realiza registros ni guarda datos de ningún tipo.</p>
+      <p class="mb-1">Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a
+          Programar</a></p>
+      <p class="mb-1">Es un sitio generado con fines estrictamente educativos. No realiza registros ni guarda datos de
+        ningún tipo.</p>
     </footer>
   </div>
 
@@ -75,7 +75,9 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quasi sapiente voluptatum deserunt? Deleniti, adipisci vitae in quaerat eius nemo optio? Quas at magni saepe cumque. Delectus perspiciatis omnis accusamus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quasi sapiente voluptatum deserunt?
+            Deleniti, adipisci vitae in quaerat eius nemo optio? Quas at magni saepe cumque. Delectus perspiciatis omnis
+            accusamus.</p>
         </div>
         <div class="modal-footer">
           <div class="form-check">
